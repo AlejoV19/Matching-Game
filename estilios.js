@@ -9,7 +9,7 @@ function contadorTiempo()
 	var timer = $("#timer").html();//variable igual a lo que esta en el HTML de @timmer
 	timer++;//Arrancamos a contar uno por eso ponemos ++
 	$("#timer").html("" + timer);//seleccionamos el @timer y añadimos un campo html "espacio"
-	if (found<2) //mientras found (cartas econtradas) sean menor que 2, entonces ...
+	if (found<8) //mientras found (cartas econtradas) sean menor que 2, entonces ...
 	{
 		timerId = setTimeout('contadorTiempo()', 1000); //ejecuta el contado
 	}
